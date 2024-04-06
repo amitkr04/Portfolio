@@ -1,0 +1,47 @@
+.skills {
+  padding-left: 130px;
+  margin-top: 60px;
+}
+
+.skills hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.skills h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.skills .card {
+  cursor: pointer;
+  /* margin-left: 100px; */
+}
+
+.skills .Skills-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.skills .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #138781;
+  color: white;
+  border: none;
+  transition: 1s;
+}
+
+/* -----mobile view---- */
+
+@media (max-width: 600px) {
+  .skills {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .skills hr {
+    width: 280px;
+  }
+}
